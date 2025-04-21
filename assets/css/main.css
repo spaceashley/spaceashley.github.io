@@ -3999,8 +3999,8 @@ input, select, textarea {
 	}
 
 .profile-pic {
-  width: 150px; /* adjust size as needed */
-  height: 150px;
+  width: 300px; /* adjust size as needed */
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
