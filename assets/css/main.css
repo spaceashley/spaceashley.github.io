@@ -3678,12 +3678,12 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 2em;
+				bottom: 4em;
 				content: '';
 				display: block;
 				height: 1.5em;
-				left: 50%;
-				margin: 0 0 0 -0.75em;
+				/*left: 50%;*/
+				margin: 0.5em auto 0 -0.75em;
 				position: absolute;
 				width: 1.5em;
 			}
