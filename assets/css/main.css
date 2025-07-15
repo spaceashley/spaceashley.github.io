@@ -3669,7 +3669,7 @@ input, select, textarea {
 			position: static;
 			text-align: center;
 			text-transform: uppercase;
-			width: auto;
+			width: 16em;
 			z-index: 1;
 		}
 
