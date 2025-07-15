@@ -48,59 +48,81 @@
 
 						    		<h3>Exoplanet Host Stars and Their Planets</h3>
 								<p> Exoplanets, at some point in time, have been under the influence of their host stars. As a result, almost all exoplanet properties are 
-                  related to the stellar properties of their host. For example, the estimate of the planetary radius is a direct function of the usually 
-                  unknown stellar radius and observed flux decrements of the star during transit. In addition to the relation of stellar properties to 
-                  the planet, the ability to characterize the systems can be impacted by the planet detection method used, given that most detection methods 
-                  are reliant on observing the host star directly. Methods for determining stellar radius, mass, composition, and temperature have been developed 
-                  and improved with our increasing understanding of stars. Most stellar parameters are generally determined via indirect methods, relying 
-                  on model fits to observables to calculate properties. However indirect methods, such as using stellar evolutionary models or stellar atmospheric models,
-                  have been shown to have deficiencies, stemming from a variety of reasons (i.e. bias in input physics). Stellar evolutionary models have been shown to 
-                  over-estimate temperatures of single K- and M-stars by ~3% and under-estimate radii by ~5%.</p>
+                  						    related to the stellar properties of their host. For example, the estimate of the planetary radius is a direct function of the usually 
+                  						    unknown stellar radius and observed flux decrements of the star during transit. In addition to the relation of stellar properties to 
+                  						    the planet, the ability to characterize the systems can be impacted by the planet detection method used, given that most detection methods 
+                                                                    are reliant on observing the host star directly. Methods for determining stellar radius, mass, composition, and temperature have been developed 
+                  						    and improved with our increasing understanding of stars. Most stellar parameters are generally determined via indirect methods, relying 
+                                                                    on model fits to observables to calculate properties. However indirect methods, such as using stellar evolutionary models or stellar atmospheric models,
+                                                                    have been shown to have deficiencies, stemming from a variety of reasons (i.e. bias in input physics). Stellar evolutionary models have been shown to 
+                                                                    over-estimate temperatures of single K- and M-stars by ~3% and under-estimate radii by ~5% (See <a href="https://ui.adsabs.harvard.edu/abs/2012ApJ...757..112B/abstract">Boyajian et al. 2012</a>.)</p>
 
-                  <p>To overcome these discrepencies, one can use direct methods to study stars. I study stars using a method called long-baseline optical/near-IR interferometry, 
-                  or LBOI. LBOI is a technique that combines light from multiple telescopes that are separated by a baseline, B. The resolution of an astronomical interferometer
-                  is thus reliant on the the baseline, or the distance between the telescopes. Long-baseline optical interferometry provides for resolutions down to the 
-                  sub-milliarcsecond range. XXX add more about interferometry and how it works
+                                                                 <p>To overcome these discrepencies, one can use direct methods to study stars. I study stars using a method called long-baseline optical/near-IR interferometry, 
+                       						    or LBOI. LBOI is a technique that combines light from multiple telescopes that are separated by a baseline, B. The resolution of an astronomical interferometer
+                  						    is thus reliant on the the baseline, or the distance between the telescopes. Long-baseline optical interferometry provides for resolutions down to the 
+                      						    sub-milliarcsecond range. XXX add more about interferometry and how it works
                     
-                    LBOI was first used by Albert Michelson to measure the diameter of Betelgeuse in the early 1900s at Mt. Wilson Observatory in California. Since the early 1900s,
-                    LBOI has become increasingly popular to study stars. As a side project, I compiled stars that have been measured with direct methods (mainly through optical interferometry) 
-		    and created a HR diagram. This HR diagram consists of 693 unique stars that all have their radius, luminosity, and effective temperature directly determined. 
-                    XXX insert HR diagram information here XXX
-                  </p>
+                    						    LBOI was first used by Albert Michelson to measure the diameter of Betelgeuse in the early 1900s at Mt. Wilson Observatory in California. Since the early 1900s,
+                                                                    LBOI has become increasingly popular to study stars. As a side project, I compiled stars that have been measured with direct methods (mainly through optical interferometry) 
+		                                                    and created a HR diagram. This HR diagram consists of 693 unique stars that all have their radius, luminosity, and effective temperature directly determined. I made a few
+		                                                    versions of this plot and more information can be found on the CHARA website. </p>
+						                    <ul class="actions fit">
+									<li><a href="https://www.chara.gsu.edu/science-highlights/stellar-diameters" class="button fit">Click here to go to CHARA website</a></li>
+								    </ul>
 
-                  <p>I use this technique to study exoplanet host stars in particular. By being able to directly measure a star's angular diameter with LBOI, the stellar radius can be
-                  determined in a model-independent way, removing any bias from a stellar evolutionary or atmospheric model. In addition to the stellar radius, a star's effective
-                  temperature and luminosity can also be determined by using variations of the Stefan Boltzmann equation. So by directly measuring a star's angular diameter, we now
-                  have 3 main stellar fundamental parameters that have been determined in a minimal model dependent or model independent way. And knowing that a planet's parameters are direct functions
-                  of their host star, we can now constrain the planet parameters with much more certainty than before.
-                  </p>
+								    <div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+									<div class="col-4"><span class="image fit"><img src="images/HRdiagram1.png" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/HRdiagram2.png" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/HRdiagram3.png" alt="" /></span></div>
+								    </div>
+								    <p>
+									The plot on the left shows the HR diagram with the size of the points scaled to the radius of the star. The color of the circles correspond to the spectral type (aka temperature/color)
+									of the star. I created a color map designed to follow the spectral types/temperatures/colors of stars (will be available on GitHub soon). The dashed diagnonal lines represent lines of 
+									constant radius. The plot in the middle shows a similar plot, but with the size of the points all uniform and some famous stars highlighted. Finally, the plot on the right shows a similar
+									plot, with the size of the points scaled to the radius of the star. The colors of the points are also related to the spectral type. This plot highlights stars with known planets. There are
+									84 stars that are exoplanet hosts.
+                  						    </p>
+								<p>Below is a 3D version of the plot, with the z-axis as the distance to the star. This plot is interactive as well.</p>
+								<div>
+    								<a href="https://chart-studio.plotly.com/~aaelliott99/2/?share_key=hztogiV3tgV3L6uzZipaih" target="_blank" title="HRDiagram_3Dversion" style="display: block; text-align: center;"><img src="https://chart-studio.plotly.com/~aaelliott99/2.png?share_key=hztogiV3tgV3L6uzZipaih" alt="HRDiagram_3Dversion" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://chart-studio.plotly.com/404.png';" /></a>
+    								<script data-plotly="aaelliott99:2" sharekey-plotly="hztogiV3tgV3L6uzZipaih" src="https://chart-studio.plotly.com/embed.js" async></script>
+								</div>
+
+
+                  						<p>I use this technique to study exoplanet host stars in particular. By being able to directly measure a star's angular diameter with LBOI, the stellar radius can be
+                  						determined in a model-independent way, removing any bias from a stellar evolutionary or atmospheric model. In addition to the stellar radius, a star's effective
+                  						temperature and luminosity can also be determined by using variations of the Stefan Boltzmann equation. So by directly measuring a star's angular diameter, we now
+                  						have 3 main stellar fundamental parameters that have been determined in a minimal model dependent or model independent way. And knowing that a planet's parameters are direct functions
+                  						of their host star, we can now constrain the planet parameters with much more certainty than before.
+                  						</p>
                   
 
-                  <h4>Center for High Angular Resolution Astronomy (CHARA) Array</h4>
-                  <p>I work with the Center for High Angular Resolution Astronomy or CHARA. CHARA is located on Mt. Wilson in California. The Array is made up of 6 1-meter telescopes arranged
-                  in a Y-formation. It has a maximum baseline of ~330 meters, which results in resolutions reaching down to about ~0.3 mas. For context, the Hubble Space Telescope has a resolution
-                  of 50 mas. With CHARA, for my dissertation, I am studying 3 exoplanet host stars (and then their planets): 51 Eridani, HD 219134, and HD 158259. 
-                  </p>
+                  						<h4>Center for High Angular Resolution Astronomy (CHARA) Array</h4>
+                  							<p>I work with the Center for High Angular Resolution Astronomy or CHARA. CHARA is located on Mt. Wilson in California. The Array is made up of 6 1-meter telescopes arranged
+                  							in a Y-formation. It has a maximum baseline of ~330 meters, which results in resolutions reaching down to about ~0.3 mas. For context, the Hubble Space Telescope has a resolution
+                 							 of 50 mas. With CHARA, for my dissertation, I am studying 3 exoplanet host stars (and then their planets): 51 Eridani, HD 219134, and HD 158259. 
+                 							 </p>
 
-                  <h3>My Dissertation Work</h3>
-                  <p>I have completed a study on 51 Eridani, a very young star that is host to directly imaged planet 51 Eridani b. I used the CHARA Array to measure an angular diameter of 51 Eridani
-                  and used the angular diameter to determine the star's radius, effective temperature, and luminosity, which are then also used to constrain an age and a mass of the star. The
-                  determination of the stellar fundamental parameters are then used to constrain the planet's mass using iso-mass models. To learn more, read the paper here: XXXXX
-                  </p>
+                  						<h3>My Dissertation Work</h3>
+                  							<p>I have completed a study on 51 Eridani, a very young star that is host to directly imaged planet 51 Eridani b. I used the CHARA Array to measure an angular diameter of 51 Eridani
+                  							and used the angular diameter to determine the star's radius, effective temperature, and luminosity, which are then also used to constrain an age and a mass of the star. The
+                  							determination of the stellar fundamental parameters are then used to constrain the planet's mass using iso-mass models. To learn more, read the paper here: XXXXX
+                  							</p>
 
-                  <p>
-                    I am currently studying the HD 219134 system. HD 219134 is a bright, nearby K3V dwarf star that hosts 6* exoplanets. I am using observations taken with several beam-combiners at 
-                    CHARA to measure an angular diameter of HD 219134. In order to properly measure an angular diameter, I developed a Python package called RADPY. See more about RADPy below. With a measured 
-                    angular diameter, I have then been able to determine the star's effective temperature and luminosity. For the planets, I have compiled archival data which consists of ~30 years of radial velocity
-                    monitoring and 5 sectors of TESS data. My goal is to solve for an orbital solution of this system using a modeling software called ExoFASTv2 XXXX(Citation). This will simultaneously
-                    model radial velocity data and transit photometry data to solve for the exoplanet orbital solutions. I am using the directly determined stellar parameters as strict priors to perform this modeling.
-                  </p>
+                  							<p>
+                    							I am currently studying the HD 219134 system. HD 219134 is a bright, nearby K3V dwarf star that hosts 6* exoplanets. I am using observations taken with several beam-combiners at 
+                    							CHARA to measure an angular diameter of HD 219134. In order to properly measure an angular diameter, I developed a Python package called RADPY. See more about RADPy below. With a measured 
+                    							angular diameter, I have then been able to determine the star's effective temperature and luminosity. For the planets, I have compiled archival data which consists of ~30 years of radial velocity
+                    							monitoring and 5 sectors of TESS data. My goal is to solve for an orbital solution of this system using a modeling software called ExoFASTv2 XXXX(Citation). This will simultaneously
+                    							model radial velocity data and transit photometry data to solve for the exoplanet orbital solutions. I am using the directly determined stellar parameters as strict priors to perform this modeling.
+                  							</p>
 
-                  <h3>RADPy</h3>
-                  <p>As a part of my dissertation, I developed a robust fitting routine for multi-wavelength interferometric data from the CHARA Array called RADPy (or Robust Angular Diameters in Python). 
-                    RADPy takes any combination of interferometric data and performs a Monte Carlo-based simulation that runs a custom-built bootstrapping routine within. The results of RADPy take into account
-                    night-to-night variability, atmospheric effects, and uncertainties in the calibrator diameters, wavelength scale, measurement errors, limb-darkening coefficients, and correlations between wavelength channels. 
-                  </p>
+                  						<h3>RADPy</h3>
+                  							<p>As a part of my dissertation, I developed a robust fitting routine for multi-wavelength interferometric data from the CHARA Array called RADPy (or Robust Angular Diameters in Python). 
+                    							RADPy takes any combination of interferometric data and performs a Monte Carlo-based simulation that runs a custom-built bootstrapping routine within. The results of RADPy take into account
+                    							night-to-night variability, atmospheric effects, and uncertainties in the calibrator diameters, wavelength scale, measurement errors, limb-darkening coefficients, and correlations between wavelength channels. 
+                  							</p>
                   
 
                   
