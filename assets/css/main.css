@@ -3577,7 +3577,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		cursor: default;
-		height: 100vh;
+		height: 75vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
@@ -3594,7 +3594,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 2.5em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -3653,7 +3653,7 @@ input, select, textarea {
 			border: none;
 			bottom: 0;
 			color: inherit;
-			font-size: 0.8em;
+			font-size: 1.5em;
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
@@ -3694,7 +3694,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #7ec9e6;
+			background: #8756e4;
 			display: block;
 			width: 100%;
 			height: 100%;
