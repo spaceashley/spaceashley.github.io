@@ -3637,7 +3637,7 @@ input, select, textarea {
 				color: inherit;
 			}
 		#banner .inner {
-			padding-bottom: 5em;
+			padding-bottom: 8em;
 		}
 
 		#banner .more {
@@ -3660,7 +3660,7 @@ input, select, textarea {
 			height: 8.5em;
 			left: auto;
 			letter-spacing: 0.225em;
-			margin-top: 4em;
+			margin-top: 5em;
 			display: inline-block;
 			margin-left: -8.5em;
 			opacity: 1;
@@ -3669,7 +3669,7 @@ input, select, textarea {
 			position: static;
 			text-align: center;
 			text-transform: uppercase;
-			width: 16em;
+			width: auto;
 			z-index: 1;
 		}
 
@@ -3678,7 +3678,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 2em;
 				content: '';
 				display: block;
 				height: 1.25em;
