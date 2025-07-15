@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ashley Elliott</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Ashley Elliott</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="research.html">Research</a></li>
+											<li><a href="cv.html">CV</a></li>
+											<li><a href="aboutme.html">About Me</a></li>
+											<li><a href="contact.html">Contact</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Research</h2>
+							<p>Current and Past</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<section>
+						    <h3>Exoplanet Host Stars and Their Planets</h3>
+								<p> Exoplanets, at some point in time, have been under the influence of their host stars. As a result, almost all exoplanet properties are 
+                  related to the stellar properties of their host. For example, the estimate of the planetary radius is a direct function of the usually 
+                  unknown stellar radius and observed flux decrements of the star during transit. In addition to the relation of stellar properties to 
+                  the planet, the ability to characterize the systems can be impacted by the planet detection method used, given that most detection methods 
+                  are reliant on observing the host star directly. Methods for determining stellar radius, mass, composition, and temperature have been developed 
+                  and improved with our increasing understanding of stars. Most stellar parameters are generally determined via indirect methods, relying 
+                  on model fits to observables to calculate properties. However indirect methods, such as using stellar evolutionary models or stellar atmospheric models,
+                  have been shown to have deficiencies, stemming from a variety of reasons (i.e. bias in input physics). Stellar evolutionary models have been shown to 
+                  over-estimate temperatures of single K- and M-stars by ~3% and under-estimate radii by ~5%.</p>
+
+                  <p>To overcome these discrepencies, one can use direct methods to study stars. I study stars using a method called long-baseline optical/near-IR interferometry, 
+                  or LBOI. LBOI is a technique that combines light from multiple telescopes that are separated by a baseline, B. The resolution of an astronomical interferometer
+                  is thus reliant on the the baseline, or the distance between the telescopes. Long-baseline optical interferometry provides for resolutions down to the 
+                  sub-milliarcsecond range. XXX add more about interferometry and how it works
+                    
+                    LBOI was first used by Albert Michelson to measure the diameter of Betelgeuse in the early 1900s at Mt. Wilson Observatory in California. Since the early 1900s,
+                    LBOI has become increasingly popular to study stars. 
+                    XXX insert HR diagram information here XXX
+                  </p>
+
+                  <p>I use this technique to study exoplanet host stars in particular. By being able to directly measure a star's angular diameter with LBOI, the stellar radius can be
+                  determined in a model-independent way, removing any bias from a stellar evolutionary or atmospheric model. In addition to the stellar radius, a star's effective
+                  temperature and luminosity can also be determined by using variations of the Stefan Boltzmann equation. So by directly measuring a star's angular diameter, we now
+                  have 3 main stellar fundamental parameters that have been determined in a minimal model dependent or model independent way. And knowing that a planet's parameters are direct functions
+                  of their host star, we can now constrain the planet parameters with much more certainty than before.
+                  </p>
+                  
+
+                  <h4>Center for High Angular Resolution Astronomy (CHARA) Array</h4>
+                  <p>I work with the Center for High Angular Resolution Astronomy or CHARA. CHARA is located on Mt. Wilson in California. The Array is made up of 6 1-meter telescopes arranged
+                  in a Y-formation. It has a maximum baseline of ~330 meters, which results in resolutions reaching down to about ~0.3 mas. For context, the Hubble Space Telescope has a resolution
+                  of 50 mas. With CHARA, for my dissertation, I am studying 3 exoplanet host stars (and then their planets): 51 Eridani, HD 219134, and HD 158259. 
+                  </p>
+
+                  <h3>My Dissertation Work</h3>
+                  <p>I have completed a study on 51 Eridani, a very young star that is host to directly imaged planet 51 Eridani b. I used the CHARA Array to measure an angular diameter of 51 Eridani
+                  and used the angular diameter to determine the star's radius, effective temperature, and luminosity, which are then also used to constrain an age and a mass of the star. The
+                  determination of the stellar fundamental parameters are then used to constrain the planet's mass using iso-mass models. To learn more, read the paper here: XXXXX
+                  </p>
+
+                  <p>
+                    I am currently studying the HD 219134 system. HD 219134 is a bright, nearby K3V dwarf star that hosts 6* exoplanets. I am using observations taken with several beam-combiners at 
+                    CHARA to measure an angular diameter of HD 219134. In order to properly measure an angular diameter, I developed a Python package called RADPY. See more about RADPy below. With a measured 
+                    angular diameter, I have then been able to determine the star's effective temperature and luminosity. For the planets, I have compiled archival data which consists of ~30 years of radial velocity
+                    monitoring and 5 sectors of TESS data. My goal is to solve for an orbital solution of this system using a modeling software called ExoFASTv2 XXXX(Citation). This will simultaneously
+                    model radial velocity data and transit photometry data to solve for the exoplanet orbital solutions. I am using the directly determined stellar parameters as strict priors to perform this modeling.
+                  </p>
+
+                  <h3>RADPy</h3>
+                  <p>As a part of my dissertation, I developed a robust fitting routine for multi-wavelength interferometric data from the CHARA Array called RADPy (or Robust Angular Diameters in Python). 
+                    RADPy takes any combination of interferometric data and performs a Monte Carlo-based simulation that runs a custom-built bootstrapping routine within. The results of RADPy take into account
+                    night-to-night variability, atmospheric effects, and uncertainties in the calibrator diameters, wavelength scale, measurement errors, limb-darkening coefficients, and correlations between wavelength channels. 
+                  </p>
+
+                  <h3>Past Works</h3>
+                  
+                  
+
+                  
+
+                
+								</section>
+
+					
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<script type="text/javascript" src="includes/foot-icons.js"></script>
+							</ul>
+						</div
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
