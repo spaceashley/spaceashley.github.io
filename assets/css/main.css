@@ -3660,6 +3660,8 @@ input, select, textarea {
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
+			margin-top: 2em;
+			display: inline-block;
 			margin-left: -8.5em;
 			opacity: 1;
 			outline: 0;
