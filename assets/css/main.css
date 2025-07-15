@@ -3637,7 +3637,7 @@ input, select, textarea {
 				color: inherit;
 			}
 		#banner .inner {
-			padding-bottom: 8em;
+			padding-bottom: 6em;
 		}
 
 		#banner .more {
@@ -3683,7 +3683,7 @@ input, select, textarea {
 				display: block;
 				height: 1.25em;
 				left: 50%;
-				margin: 0 0 0 -0.5em;
+				margin: 0 0 0 -0.85em;
 				position: absolute;
 				width: 1.5em;
 			}
