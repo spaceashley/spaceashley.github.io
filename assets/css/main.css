@@ -3577,7 +3577,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		cursor: default;
-		height: 100vh;
+		height: 50vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
@@ -3594,7 +3594,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 2.5em;
+			font-size: 2em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -3673,10 +3673,10 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 3em;
+				bottom: 1em;
 				content: '';
 				display: block;
-				height: 1.5em;
+				height: 1em;
 				left: 50%;
 				margin: 0 0 0 -0.75em;
 				position: absolute;
