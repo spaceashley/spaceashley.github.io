@@ -3654,19 +3654,19 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			border: none;
-			bottom: auto;
+			bottom: 2em;
 			color: inherit;
-			font-size: 0.85em;
+			font-size: 1em;
 			height: 8.5em;
 			left: auto;
 			letter-spacing: 0.225em;
-			margin-top: 5em;
+			margin-top: 2em;
 			display: inline-block;
 			margin-left: -8.5em;
 			opacity: 1;
 			outline: 0;
 			padding-left: 0.225em;
-			position: relative;
+			position: absolute;
 			text-align: center;
 			text-transform: uppercase;
 			width: 16em;
@@ -3681,10 +3681,10 @@ input, select, textarea {
 				bottom: 2em;
 				content: '';
 				display: block;
-				height: 1.25em;
+				height: 1.5em;
 				left: 50%;
-				margin: 0 auto;
-				position: static;
+				margin: 0 0 0 -0.75em;
+				position: absolute;
 				width: 1.5em;
 			}
 
