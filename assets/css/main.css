@@ -3676,7 +3676,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 2em;
 				content: '';
 				display: block;
 				height: 1.5em;
