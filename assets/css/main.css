@@ -3658,7 +3658,7 @@ input, select, textarea {
 			color: inherit;
 			font-size: 1em;
 			height: 8.5em;
-			left: auto;
+			left: 50%;
 			letter-spacing: 0.225em;
 			margin-top: 2em;
 			display: inline-block;
@@ -3678,11 +3678,11 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 2em;
 				content: '';
 				display: block;
 				height: 1.5em;
-				/*left: 50%;*/
+				left: 50%;
 				margin: 0.5em auto 0 -0.75em;
 				position: absolute;
 				width: 1.5em;
