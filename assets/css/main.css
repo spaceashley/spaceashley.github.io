@@ -3636,9 +3636,9 @@ input, select, textarea {
 			#banner p a {
 				color: inherit;
 			}
-		#banner .inner {
+		/*#banner .inner {
 			padding-bottom: 5em;
-		}
+		}*/
 
 		#banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
@@ -3654,14 +3654,14 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			border: none;
-			bottom: 2em;
+			bottom: 0;
 			color: inherit;
-			font-size: 1em;
+			font-size: 0.8em;
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
-			margin-top: 2em;
-			display: inline-block;
+			/*margin-top: 2em;*/
+			/*display: inline-block;*/
 			margin-left: -8.5em;
 			opacity: 1;
 			outline: 0;
@@ -3678,12 +3678,12 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 2em;
+				bottom: 4em;
 				content: '';
 				display: block;
 				height: 1.5em;
 				left: 50%;
-				margin: 0.5em auto 0 -0.75em;
+				margin: 0 0 0 -0.75em;
 				position: absolute;
 				width: 1.5em;
 			}
